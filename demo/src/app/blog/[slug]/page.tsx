@@ -12,7 +12,7 @@ export default async function Page({
   const { slug } = await params
   // const post = await getPost(slug)
   // console.log(slug)
-  let data = await fetch('./components/json/'+ slug)
+  let data = await fetch('https://raw.githubusercontent.com/HeadBodyScript/next-js/refs/heads/main/demo/src/components/json/' + slug + '.json')
   let posts = await data.json()
    console.log(posts)
 

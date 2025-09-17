@@ -4,7 +4,7 @@
         "url": "url(https://github.com/HeadBodyScript/headbodyscript.github.io/blob/main/static/vista/character/1.jpg?raw=true)",
         "name": "???",
         "id": "001",
-        "description": "Mh.",
+        "description": "Mhhhhhhhhhhhhh.",
         "health": "2",
         "attack": "20"
     },
@@ -12,7 +12,7 @@
         "url": "url(https://github.com/HeadBodyScript/headbodyscript.github.io/blob/main/static/vista/character/2.jpg?raw=true)",
         "name": "Sky",
         "id": "002",
-        "description": "I guess I have time for one more.",
+        "description": "I guess I have time for one more. again",
         "health": "3",
         "attack": "18"
     },
@@ -20,7 +20,7 @@
         "url": "url(https://github.com/HeadBodyScript/headbodyscript.github.io/blob/main/static/vista/character/3.jpg?raw=true)",
         "name": "Withered Rose",
         "id": "003",
-        "description": "May mercy fall upon me.",
+        "description": "May mercy fall upon me. this is something",
         "health": "15",
         "attack": "7"
     },
