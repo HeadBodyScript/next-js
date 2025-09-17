@@ -1,6 +1,7 @@
 import Footer from "@/components/footer"
 import Navbar from "@/components/navbar"
-import Item from "@/components/json/1.json"
+import Link from "next/link"
+// import Item from "@/components/json/1.json"
 
 // function generateStaticParams() {}
 
@@ -23,8 +24,13 @@ export default async function Page({
       this is page {slug}
       <br></br>
       Hello world
+      <div>
+        <Link href="/blog/1">Json 1</Link>
+        <Link href="/blog/2">json 2</Link>
+
+      </div>
       {
-        Item.characters.map((item: any) => (
+        posts.characters.map((item: any) => (
           <div key={item.id} className='h-full'>
               <div>{item.description}</div>
           </div>
