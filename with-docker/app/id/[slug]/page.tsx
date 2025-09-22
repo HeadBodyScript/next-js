@@ -38,12 +38,13 @@ export default async function Page({
         {/* <img src={character.url} alt="" height={200} width={200}/> */}
           <Image
             priority
-            // placeholder="data:image/404-img.webp"
-            src= {character.url}
+            placeholder="data:image/404-img.webp"
+            // src= {character.url}
+            src= "/file.svg"
             width={200}
             height={200}
             alt="Picture of character"
-            // quality={1}
+            quality={1}
           />
         </>
 

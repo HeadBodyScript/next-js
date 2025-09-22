@@ -1,5 +1,5 @@
 'use client' // Error boundaries must be Client Components
-
+ 
 import { useEffect } from 'react'
  
 export default function Error({
@@ -15,10 +15,9 @@ export default function Error({
   }, [error])
  
   return (
-  <>
-    <main>
-      This page does not exist
-            <button
+    <div>
+      <h2>Something went wrong!</h2>
+      <button
         onClick={
           // Attempt to recover by trying to re-render the segment
           () => reset()
@@ -26,7 +25,6 @@ export default function Error({
       >
         Try again
       </button>
-    </main>
-  </>
+    </div>
   )
 }
