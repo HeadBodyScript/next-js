@@ -1,4 +1,4 @@
-docker run --name dimitra -d --publish 3000:3000 nextjs-docker3
+docker run --name dimitratest -d -p 3000:3000 nextjs-dockertest
 # docker run --name dimitra -d --publish 80:80 nextjs-docker3
 
 # run = run an image that exists

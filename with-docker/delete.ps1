@@ -1,5 +1,5 @@
-docker rm dimitra
-docker image rm nextjs-docker3
+docker rm dimitratest
+docker image rm nextjs-dockertest
 # rm = remove a container
 # dimitra = the name of the container to remove
 # image rm = remove an image
